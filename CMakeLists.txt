@@ -8,6 +8,8 @@ include(CTest)
 enable_testing()
 
 add_executable(tiny_json_parser src/main.cpp)
+add_executable(tiny_test src/tiny_test.cpp)
+
 # add_library(value_type src/value_type.cpp)
 # add_library(parser src/parser.cpp)
 # target_link_libraries(tiny_json_parser parser)
